@@ -1,0 +1,65 @@
+*{
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 20px;
+}
+.position-relative img{
+    height: 300px;
+    width: 300px;
+
+
+}
+.nav-link active{
+    color: blue;
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(205, 237, 241);
+}
+#carouselExample{
+    margin: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.card img{
+    
+    border-radius: 60px;
+    height: 180px;
+    width: 80%;
+    align-items: center;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card{
+    align-content: center;
+}
+.carousel-inner .item img 
+{ height: 100%; width: 100%;}
+.d-block w-100{
+    height: 300px;
+    width: 70%;
+    align-items: center;
+    margin-right: 20px;
+}
+.navbar navbar-expand-lg bg-body-tertiary{
+    background-color: purple;
+
+
+}
+h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container my-5{
+    color: rgb(70, 68, 67);
+}
+p{
+    color: black;
+}
